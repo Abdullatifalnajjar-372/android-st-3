@@ -1,0 +1,27 @@
+
+
+
+
+Step 1 : Remove import android.R;
+Step 2 : Clean And Rebuild (It should work)
+
+
+
+
+
+Open Gradle window (on the right side in Android Studio) and click on the refresh button
+
+
+
+
+
+
+5
+
+When you declare a reference variable (i.e. an object) you are really creating a pointer to an object. Consider the following code where you declare a variable of primitive type int:
+int x;
+x = 10;
+In this example, the variable x is an int and Java will initialize it to 0 for you. When you assign it the value of 10 on the second line, your value of 10 is written into the memory location referred to by x.
+But, when you try to declare a reference type, something different happens. Take the following code:
+Integer num;
+num = new Integer(10);
